@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "291197740464",
+    "project_id": "auth-c4f90",
+    "storage_bucket": "auth-c4f90.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:291197740464:android:bf589700c59bc458256275",
+        "android_client_info": {
+          "package_name": "com.example.sample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "291197740464-1ugoio44kk9q8enft1neudpg2cehe3dh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0a29rMcp7s88p_qP1O0K9obZSaFtyLOY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "291197740464-1ugoio44kk9q8enft1neudpg2cehe3dh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".configuration"
+    >
+
+
+    <TextView
+        android:id="@+id/textView"
+
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_marginTop="29dp"
+        android:gravity="center"
+        android:letterSpacing="0.03"
+        android:text="@string/configuration"
+        android:textColor="#0d6e6a"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <Switch
+        android:id="@+id/wifi_switch"
+        android:layout_width="388dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/textView"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="60dp"
+        android:letterSpacing="0.03"
+        android:text="WiFi"
+        android:textColor="#0d6e6a"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Switch
+        android:id="@+id/bluetooth_switch"
+        android:layout_width="388dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/wifi_switch"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="60dp"
+        android:letterSpacing="0.03"
+        android:text="Bluetooth"
+        android:textColor="#0d6e6a"
+        android:textSize="30dp"
+        android:textStyle="bold">
+
+    </Switch>
+
+    <ListView
+        android:id="@+id/lvNewDevices"
+        android:layout_width="match_parent"
+        android:layout_height="150dp" />
+    <Button
+        android:id="@+id/demarrer2"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="390dp"
+        android:background="@drawable/button"
+        android:letterSpacing="0.07"
+        android:text="démarrer"
+        android:textColor="#FFF"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
